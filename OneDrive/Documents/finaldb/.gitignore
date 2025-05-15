@@ -1,0 +1,35 @@
+# Create a .gitignore file in your repository
+echo ".conda/
+.gitconfig
+.idlerc/
+.lesshst
+.matplotlib/
+.viminfo
+.vscode/
+3D Objects/
+AppData/
+Contacts/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.*
+Saved Games/
+Searches/
+Videos/
+anaconda3/
+*.lnk
+*.pdf
+*.docx
+*.pub
+*.jpeg
+*.jpg
+*.png
+*.svg
+*.htm
+*.xml
+*.regtrans-ms
+*.TM.blf
+*.TxR.*
+desktop.ini" > .gitignore
